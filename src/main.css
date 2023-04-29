@@ -22,12 +22,12 @@
   @apply absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-transparent to-gray-900 group-hover:from-gray-50 group-hover:to-white group-hover:opacity-70;
 }
 #hero {
-  background: url("../public/img/desktop/image-hero.jpg") no-repeat;
+  background: url("./img/desktop/image-hero.jpg") no-repeat;
   background-size: cover;
 }
 @media (max-width: 576px) {
   #hero {
-    background: url("../public/img/mobile/image-hero.jpg") no-repeat;
+    background: url("./img/mobile/image-hero.jpg") no-repeat;
     background-position: center;
   }
 }
